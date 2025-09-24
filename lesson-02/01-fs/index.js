@@ -1,10 +1,4 @@
-// import * as fs from 'node:fs/promises';
-
-// fs.readFile("movies.txt", { encoding: "utf-8" })
-//     .then(data => console.log(data))
-//     .catch(error => console.error(error));
-
-import { readMovies } from "./movies/movies.js"
+import { readMovies } from "./movies.js"; 
 
 async function main() {
     const movies = await readMovies();
