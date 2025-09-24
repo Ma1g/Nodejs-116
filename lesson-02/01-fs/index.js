@@ -1,4 +1,4 @@
-import { readMovies } from "./movies.js"; 
+import { readMovies } from "./movies/movies.js"; 
 
 async function main() {
     const movies = await readMovies();
